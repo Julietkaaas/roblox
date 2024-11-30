@@ -1,0 +1,45 @@
+body{
+    background: linear-gradient(#55055c, #ac44b6, #55055c);
+    margin: 0;
+    height: 100vh; /* Высота равна высоте окна */
+    background-size: cover; /* Растягивает фон на всю область */
+    background-repeat: no-repeat;
+    
+}
+header h1{
+    color: #be5edb;
+    -webkit-text-stroke: #f3f3f3;
+    -webkit-text-stroke-width: 0.5px;
+    box-shadow: 2px 2px 4px 5px rgb(209, 80, 235);
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    padding: 8px;
+    margin: auto;
+    border: 5px solid rgb(255, 255, 255);
+    background-color: rgba(152, 144, 153, 0.5);
+    border-radius: 10px;
+}
+header div{
+    display: inline-block;
+    justify-content: center;
+    display: flex;
+}
+.lessons a{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    color: #be5edb;
+    -webkit-text-stroke: #f3f3f3;
+    -webkit-text-stroke-width: 0.5px;
+    box-shadow: 2px 2px 4px 3px rgb(209, 80, 235);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    margin: auto;
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgba(152, 144, 153, 0.5);
+    border-radius: 10px;
+    margin: 2%;
+}
